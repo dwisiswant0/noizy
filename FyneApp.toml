@@ -1,0 +1,8 @@
+Website = "https://github.com/dwisiswant0/noizy"
+
+[Details]
+  Icon = "assets/icon.png"
+  Name = "Noizy"
+  ID = "io.dw1.Noizy"
+  Version = "1.0.0"
+  Build = 1
