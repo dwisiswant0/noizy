@@ -22,17 +22,22 @@ A drop-in replacement to Apple Hearing - Background Sounds with over 30+ availab
 
 ## Installation
 
-### Binary
+#### Dependencies:
 
-Simply, download a pre-built binary from [releases page](https://github.com/dwisiswant0/noizy/releases). Unpack and run!
+* See Oto [prerequisites](https://github.com/ebitengine/oto#prerequisite). **tl;dr**: In macOS, y'all need Audio Toolbox framework, and; in Linux, ALSA library (`libasound2-dev` or `alsa-lib-devel` for RedHat-based distros) is required.
+* See Fyne's `systray` [platform notes](https://github.com/fyne-io/systray#platform-notes).
+
+<!-- ### Binary
+
+Simply, download a pre-built binary from [releases page](https://github.com/dwisiswant0/noizy/releases). Unpack and run! -->
 
 ### Source
 
 > **Note**
-> [Go](https://golang.org/doc/install) (v1.21+) compiler should be installed & configured.
+> [Go](https://golang.org/doc/install) _(v1.21+)_ compiler should be installed & configured.
 
 ```bash
-go install github.com/dwisiswant0/noizy@latest
+CGO_ENABLED=1 go install github.com/dwisiswant0/noizy@latest
 ```
 
 ### — or
@@ -46,13 +51,18 @@ Manual building executable from source code:
 git clone https://github.com/dwisiswant0/noizy.git
 cd noizy/
 # git checkout [VERSION TAG]
-make build
+make build # or
+make build-windows # for Windows
 # ./bin/noizy
 ```
 
 ## Usage
 
 Simply, just execute the `noizy` binary. `¯\_(ツ)_/¯`
+
+### Demo
+
+https://github.com/dwisiswant0/noizy/assets/25837540/4b60076f-740d-4384-94e4-da766758df35
 
 ## FAQ
 
@@ -61,6 +71,10 @@ Simply, just execute the `noizy` binary. `¯\_(ツ)_/¯`
 
 **Q:** Why did you choose OGG instead of MP3?<br>
 **A:** Well, OGG's got that sweet sound quality, way better than a same-sized MP3 file. Therefore, I don't want your zen or focus to get wrecked by crappy audio. 🧘
+
+## TODOs
+
+* [ ] Distribute binaries to [releases](https://github.com/dwisiswant0/noizy/releases) with `fyne-cross` in GitHub Actions. (https://github.com/fyne-io/fyne-cross/issues/204)
 
 ## License
 
