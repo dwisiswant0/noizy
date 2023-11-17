@@ -33,7 +33,7 @@ Simply, download a pre-built binary from [releases page](https://github.com/dwis
 
 ### Source
 
-> **Note**
+> [!NOTE]
 > [Go](https://golang.org/doc/install) _(v1.21+)_ compiler should be installed & configured.
 
 ```bash
@@ -44,7 +44,7 @@ CGO_ENABLED=1 go install github.com/dwisiswant0/noizy@latest
 
 Manual building executable from source code:
 
-> **Warning**
+> [!WARNING]
 > The `master` branch contains the latest code changes and updates, which might not have undergone thorough testing and quality assurance - thus, you may encounter instability and unexpected behavior.
 
 ```bash
