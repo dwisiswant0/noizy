@@ -9,8 +9,8 @@ github.com/ebitengine/purego v0.5.0/go.mod h1:ah1In8AOtksoNK6yk5z1HTJeUkC1Ez4Wk2
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/godbus/dbus/v5 v5.1.0 h1:4KLkAxT3aOY8Li4FRJe/KvhoNFFxo0m6fNuFUO8QJUk=
 github.com/godbus/dbus/v5 v5.1.0/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
-github.com/gopxl/beep v1.3.0 h1:wlAdb0Ar3q+pPxEspJM5rNFyNGZJ5/pQd6gYh09byU4=
-github.com/gopxl/beep v1.3.0/go.mod h1:gGVz7MJKlfHrmkzr0wSLGNyY7oisM6rFWJnaLjNxEwA=
+github.com/gopxl/beep v1.4.0 h1:pJERVDZMJkf49R1g/tV9DhVct4xNRuTlyMnMa53gGsc=
+github.com/gopxl/beep v1.4.0/go.mod h1:gGVz7MJKlfHrmkzr0wSLGNyY7oisM6rFWJnaLjNxEwA=
 github.com/gosimple/slug v1.13.1 h1:bQ+kpX9Qa6tHRaK+fZR0A0M2Kd7Pa5eHPPsb1JpHD+Q=
 github.com/gosimple/slug v1.13.1/go.mod h1:UiRaFH+GEilHstLUmcBgWcI42viBN7mAb818JrYOeFQ=
 github.com/gosimple/unidecode v1.0.1 h1:hZzFTMMqSswvf0LBJZCZgThIZrpDHFXux9KeGmn6T/o=

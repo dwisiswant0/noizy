@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	fyne.io/systray v1.10.1-0.20230722100817-88df1e0ffa9a
-	github.com/gopxl/beep v1.3.0
+	github.com/gopxl/beep v1.4.0
 	github.com/gosimple/slug v1.13.1
 	github.com/lmittmann/tint v1.0.3
 	github.com/mattn/go-colorable v0.1.13
