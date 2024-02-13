@@ -38,6 +38,7 @@ Simply, download a pre-built binary from [releases page](https://github.com/dwis
 
 ```bash
 CGO_ENABLED=1 go install github.com/dwisiswant0/noizy@latest
+set CGO_ENABLED=1 && go install github.com/dwisiswant0/noizy@latest # for Windows
 ```
 
 ### — or
