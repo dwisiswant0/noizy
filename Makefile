@@ -8,7 +8,7 @@ build:
 
 build-windows: GO_LDFLAGS += -H=windowsgui
 build-windows:
-	CGO_ENABLED=1 go build -ldflags "$(GO_LDFLAGS)" -trimpath -o ./bin/$(APP_NAME) .
+	set CGO_ENABLED=1 && go build -ldflags "$(GO_LDFLAGS)" -trimpath -o ./bin/$(APP_NAME) .
 
 print-ldflags:
 	@echo -n "$(GO_LDFLAGS)"
